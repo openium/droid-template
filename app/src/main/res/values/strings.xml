@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Template</string>
+    <string name="url_prod" translatable="false"></string>
+</resources>
