@@ -39,8 +39,7 @@ android {
         def FALSE = "false"
         def CONTINUOUS_INTEGRATION = "CONTINUOUS_INTEGRATION"
         debug {
-            minifyEnabled true
-            useProguard false
+            minifyEnabled false
             ext.enableCrashlytics = false
             ext.alwaysUpdateBuildId = false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
@@ -104,8 +103,8 @@ dependencies {
     compile 'uk.co.chrisjenx:calligraphy:2.3.0'
 
     compile 'com.jakewharton.timber:timber:4.5.1'
-    compile 'com.github.salomonbrys.kodein:kodein:4.0.0'
-    compile 'com.github.salomonbrys.kodein:kodein-android:4.0.0'
+    compile 'com.github.salomonbrys.kodein:kodein:4.1.0'
+    compile 'com.github.salomonbrys.kodein:kodein-android:4.1.0'
 
     debugCompile 'com.squareup.retrofit2:retrofit-mock:2.3.0'
     debugCompile 'com.squareup.leakcanary:leakcanary-android:1.5.1'
